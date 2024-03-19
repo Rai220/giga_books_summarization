@@ -1,0 +1,5 @@
+venv/
+*.epub
+*.txt
+*.sh
+config.json

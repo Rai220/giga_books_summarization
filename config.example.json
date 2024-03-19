@@ -1,0 +1,6 @@
+{
+    "GIGACHAT_USER": "username",
+    "GIGACHAT_PASSWORD": "pass",
+    "base_url": "...",
+    "OPENAI_API_KEY": "..."
+}
