@@ -13,7 +13,7 @@ pip install -r requirements.txt
 ```
 3. Настройте переменные окружения для указания параметров доступа к GigaChat и OpenAI, или создайте файл `config.json` в корневой директории проекта со следующей структурой:
 
-```json
+```
 {
     "user": "your_gigachat_user",
     "password": "your_gigachat_password",
