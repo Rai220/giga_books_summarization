@@ -12,6 +12,7 @@
 pip install -r requirements.txt
 ```
 3. Настройте переменные окружения для указания параметров доступа к GigaChat и OpenAI, или создайте файл `config.json` в корневой директории проекта со следующей структурой:
+
 ```json
 {
     "user": "your_gigachat_user",
@@ -20,11 +21,9 @@ pip install -r requirements.txt
     "openai_api_key": "your_openai_api_key"
 }
 ```
+
 Если переменные окружения не заданы, приложение автоматически загрузит настройки из config.json.
 
-
-markdown
-Copy code
 # GigaChat Book Summarizer
 
 Простое консольное приложение на Python для суммаризации книг с использованием модели GigaChat. Поддерживает разные конфигурации суммаризации и позволяет сравнивать результаты с помощью GPT-4.
